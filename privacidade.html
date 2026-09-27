@@ -62,7 +62,7 @@
 <body>
 <main>
   <h1>Política de Privacidade</h1>
-  <p class="updated">Última atualização: 26/09/2026</p>
+  <p class="updated">Última atualização: 27/09/2026</p>
 
   <p>
     Esta política se refere à ferramenta interna de publicação do canal do
@@ -81,7 +81,6 @@
   <h2>Quais dados são acessados</h2>
   <p>O único dado acessado é a autorização (OAuth) do próprio dono do canal, usada para:</p>
   <ul>
-    <li>enviar e agendar vídeos no canal do próprio dono (escopo <code>youtube.upload</code>);</li>
     <li>ler estatísticas agregadas de desempenho dos vídeos do próprio canal (escopo <code>yt-analytics.readonly</code>).</li>
   </ul>
 
@@ -96,9 +95,10 @@
   <p>
     O token de autorização é armazenado de forma criptografada (como
     "encrypted secret" do GitHub Actions) e é usado apenas pelo processo
-    automatizado de publicação. As estatísticas dos vídeos são mantidas
-    apenas como números simples em um repositório privado do canal, usados
-    unicamente para ajudar a escolher temas de vídeos futuros.
+    automatizado que lê as estatísticas do canal. As estatísticas dos
+    vídeos são mantidas apenas como números simples em um repositório
+    privado do canal, usados unicamente para ajudar a escolher temas de
+    vídeos futuros.
   </p>
 
   <h2>Retenção e exclusão de dados</h2>
